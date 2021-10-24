@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    height: 83px;
+    background: #112B3E;
+}
+
+header a {
+    margin-top: 23px;
+    margin-left: 27px;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+a, a:visited{
+     color: #FFFFFF;
+}
+
+@media screen and (max-width: 420px) {
+    a {
+        font-size: 26px;
+    }
+}
